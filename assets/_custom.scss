@@ -2,6 +2,9 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won’t be available)
+header {
+  border-bottom: 1px solid var(--bg-Dark, #2a5b3f);
+}
 $primary: #bfc9bc;
 $secondary: #bcaa82;
 $dark: #707f67;
