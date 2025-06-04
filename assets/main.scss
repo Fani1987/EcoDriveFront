@@ -1,2 +1,30 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import "custom";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header {
+  border-bottom: 1px solid var(--bg-Dark, #2a5b3f);
+}
+
+main {
+  margin-bottom: 71px;
+}
+
+footer {
+  border-top: 1px solid var(--bg-Dark, #2a5b3f);
+}
+
+footer.footer {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  align-items: center;
+  color: var(--bg-Dark, #2a5b3f);
+}
